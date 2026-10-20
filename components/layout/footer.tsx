@@ -1,0 +1,3 @@
+import Link from 'next/link'
+import {BriefcaseBusiness} from 'lucide-react'
+export function Footer(){return <footer className="mt-auto border-t border-slate-200 bg-white"><div className="container-page flex flex-col items-center justify-between gap-4 py-8 text-sm text-slate-500 sm:flex-row"><Link href="/" className="flex items-center gap-2 font-bold text-ink"><BriefcaseBusiness size={18} className="text-accent"/>talenthub.</Link><p>© {new Date().getFullYear()} TalentHub • Projeto acadêmico de frontend.</p><Link href="/curriculos/visualizar" className="hover:text-accent">Ver talentos</Link></div></footer>}
